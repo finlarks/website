@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.65aa1749.chunk.css",
+    "main.js": "/website/static/js/main.db46f658.chunk.js",
+    "main.js.map": "/website/static/js/main.db46f658.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.dec108bb.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.dec108bb.js.map",
+    "static/js/2.983e87fe.chunk.js": "/website/static/js/2.983e87fe.chunk.js",
+    "static/js/2.983e87fe.chunk.js.map": "/website/static/js/2.983e87fe.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.65aa1749.chunk.css.map": "/website/static/css/main.65aa1749.chunk.css.map",
+    "static/js/2.983e87fe.chunk.js.LICENSE.txt": "/website/static/js/2.983e87fe.chunk.js.LICENSE.txt",
+    "static/media/cyber-security.441f0fe3.png": "/website/static/media/cyber-security.441f0fe3.png",
+    "static/media/header-pic.815286f6.png": "/website/static/media/header-pic.815286f6.png",
+    "static/media/php.d8a13ed8.png": "/website/static/media/php.d8a13ed8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dec108bb.js",
+    "static/js/2.983e87fe.chunk.js",
+    "static/css/main.65aa1749.chunk.css",
+    "static/js/main.db46f658.chunk.js"
+  ]
+}
