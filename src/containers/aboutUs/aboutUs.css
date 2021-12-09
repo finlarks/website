@@ -1,0 +1,126 @@
+.aboutus {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+    border-radius: 10px;
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, rgba(0, 115, 130, 1) 10%, rgba(106, 4, 137, 1) 82%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(0, 115, 130, 1) 10%, rgba(106, 4, 137, 1) 82%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(0, 115, 130, 1) 10%, rgba(106, 4, 137, 1) 82%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6A0489', endColorstr='#007382', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(0, 115, 130, 1) 10%, rgba(106, 4, 137, 1) 82%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(0, 115, 130, 1) 10%, rgba(106, 4, 137, 1) 82%);
+
+}
+
+.aboutus-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.aboutus-feature .features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.aboutus-feature .features-container_feature-text {
+    max-width: 700px;
+}
+
+.aboutus-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 4rem 0 2rem;
+}
+
+.aboutus-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.aboutus-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.aboutus-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
+}
+
+/* Customizing feature component as per needs */
+.aboutus-container .features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+/* Customizing feature component as per needs */
+.aboutus-container .features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .aboutus-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .aboutus-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .aboutus-feature .features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .aboutus-feature .features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .aboutus-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .aboutus-container .features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
